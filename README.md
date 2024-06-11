@@ -3,13 +3,26 @@ Introduction:
 
 In this port secuirty lab, we will delve into configuring and testing port security on a network switch using Packet Tracer simulation software. The lab is structured into tasks designed to review, configure, and test port security measures to enhance network integrity and mitigate unauthorized access. By following these steps, participants will gain practical experience in securing network ports and handling security violations effectively.
 
+![Screenshot 2024-06-11 144924](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/8df16143-313a-49fb-938e-bbec2e3a09db)
+
+
+![Screenshot 2024-06-11 151257](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/2aa3a907-66f0-440e-8265-e5c1f70c6c8f)
+
 <h1> Task 1: Review and Verify Switch Configuration</h1>
 
-Log in to the switch and enter enable mode.
-Use the 'show run' command to review the configurations.
-Identify and ensure unused ports are shutdown.
-Confirm that ports in use are set to 'no shutdown'.
-Verify that all ports are configured with port security.
+1. Log in to the switch and enter enable mode.
+2. Use the 'show run' command to review the configurations.
+   
+![Screenshot 2024-06-11 144828](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/f4b6e670-54bb-4ce1-89d5-3c3ef8562997)
+
+3. Identify and ensure unused ports are shutdown.
+4. Confirm that ports in use are set to 'no shutdown'.
+
+![Screenshot 2024-06-11 145041](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/defb7c92-30b5-4c29-94fa-5b29effca5a6)
+
+5. Verify that all ports are configured with port security.
+   
+![Screenshot 2024-06-11 150748](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/7884027e-b67e-4992-9f6b-9dfb7557ab82)
 
 <h1> Task 2: Configure Unused Ports to Shutdown</h1>
 
