@@ -1,6 +1,4 @@
 <h1> Port Secuirty lab </h1>
-Introduction:
-
 In this port secuirty lab, we will delve into configuring and testing port security on a network switch using Packet Tracer simulation software. The lab is structured into tasks designed to review, configure, and test port security measures to enhance network integrity and mitigate unauthorized access. By following these steps, participants will gain practical experience in securing network ports and handling security violations effectively.
 
 ![Screenshot 2024-06-11 144924](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/8df16143-313a-49fb-938e-bbec2e3a09db)
@@ -21,33 +19,62 @@ In this port secuirty lab, we will delve into configuring and testing port secur
 ![Screenshot 2024-06-11 145041](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/defb7c92-30b5-4c29-94fa-5b29effca5a6)
 
 5. Verify that all ports are configured with port security.
-   
+
 ![Screenshot 2024-06-11 150748](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/7884027e-b67e-4992-9f6b-9dfb7557ab82)
+
+
+![Screenshot 2024-06-11 152435](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/be74db0b-f83a-4f26-ae67-a0ef88cd65b7)
+
+I was able to troubleshoot port 10 because I will be using it later. 
 
 <h1> Task 2: Configure Unused Ports to Shutdown</h1>
 
-Configure ports not in use to shutdown.
-Utilize either individual interface login or the range command to achieve this.
+1. Configure ports not in use to shutdown.
+2. Utilize either individual interface login or the range command to achieve this.
+   
+![Screenshot 2024-06-11 150748](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/7884027e-b67e-4992-9f6b-9dfb7557ab82)
 
 <h1> Task 3: Configure Port Security on All Ports </h1>
 
-Enable port security on all ports.
-Implement port-security mac-address sticky to store MAC addresses in memory.
-Save the configuration using the 'copy run start' command.
+1. Enable port security on all ports.
+2. Implement port-security mac-address sticky to store MAC addresses in memory.
+3. Save the configuration using the 'copy run start' command.
+
+![Screenshot 2024-06-11 154801](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/0ba83805-8bed-4705-8955-bd658ecc2407)
 
 <h1> Task 4: Test Network Connectivity </h1>
 
-Use the ping command to test connectivity between computers.
-Ensure successful pings among all computers except Laptop-HACKER.
+1. Use the ping command to test connectivity between computers.
+2. Ensure successful pings among all computers except Laptop-HACKER.
+
+![Screenshot 2024-06-11 155039](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/548babc8-29d0-4861-966a-140afb28dcbe)
+
+![Screenshot 2024-06-11 155039](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/59224a31-8fb0-4fb3-b901-c1481d67e056)
+
 
 <h1> Task 5: Review Port Security Configuration </h1>
 
 Review the switchport port-security settings within each interface.
 
+![Screenshot 2024-06-11 155552](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/8f486e47-b47e-4d27-a7c7-f55169ac44e1)
+
+![Screenshot 2024-06-11 155619](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/82da5699-fb4b-438c-a497-633ebc503c5c)
+
+
 <h1> Task 6: Test Port Security </h1>
 
-Simulate disconnecting PC-1 and connecting Laptop-HACKER to a port.
-Ensure that the port is disabled due to a security violation.
+1. Simulate disconnecting PC-1 and connecting Laptop-HACKER to a port.
+
+![Screenshot 2024-06-11 160711](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/cf19c7c2-653e-4774-82f6-a523b5a43e70)
+
+![Screenshot 2024-06-11 160837](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/55a94e56-d128-4678-a36a-ee9b28f4c0a0)
+
+2. Ensure that the port is disabled due to a security violation.
+   
+![Screenshot 2024-06-11 161220](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/e4a16865-de95-4c2d-b628-581f6f95ff59)
+
+![Screenshot 2024-06-11 162142](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/99c4a132-92c6-429b-b264-90cfd5b62bd6)
+
 
 <h1> Task 7: Check for Security Violations </h1>
 
