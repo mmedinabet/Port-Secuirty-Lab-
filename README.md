@@ -1,4 +1,4 @@
-<h1> Port Secuirty lab </h1>
+<h1> PacketTracer: Port Secuirty lab </h1>
 In this port secuirty lab, we will delve into configuring and testing port security on a network switch using Packet Tracer simulation software. The lab is structured into tasks designed to review, configure, and test port security measures to enhance network integrity and mitigate unauthorized access. By following these steps, participants will gain practical experience in securing network ports and handling security violations effectively.
 
 ![Screenshot 2024-06-11 144924](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/8df16143-313a-49fb-938e-bbec2e3a09db)
