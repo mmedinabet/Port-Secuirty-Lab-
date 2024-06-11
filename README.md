@@ -78,9 +78,18 @@ Review the switchport port-security settings within each interface.
 
 <h1> Task 7: Check for Security Violations </h1>
 
-Verify if any ports are in security violation.
-Shutdown port in violation and rectify port security settings.
-Confirm network connectivity and proper functioning of port security measures.
+1. Verify if any ports are in security violation.
+2. Shutdown port in violation and rectify port security settings.
+3. Confirm network connectivity and proper functioning of port security measures.
+
+![Screenshot 2024-06-11 4 36 47 PM](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/561e064a-9fd3-40e5-a65a-11354c197f6d)
+
+![Screenshot 2024-06-11 4 47 26 PM](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/c72ba5d3-40d9-4294-a47d-aaa79c1500cc)
+
+![Screenshot 2024-06-11 4 47 06 PM](https://github.com/mmedinabet/Port-Secuirty-Lab-/assets/142737434/a3768f5c-320d-4a5c-9f9f-ebcc0d5ab5fc)
+
+
+
 
 <h1> Conclusion </h1>
 
